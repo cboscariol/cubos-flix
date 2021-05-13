@@ -1,0 +1,39 @@
+.header-principal{
+    background-color: #0F1C26;
+    height: 104px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FDFDFD;
+}
+
+.header-input{
+    width: 456px;
+    height: 56px;
+    border: none;
+    background-color: #171B1E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.profile{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic-profile{
+    width: 56px;
+    height: 56px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.header-fav-sale a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-family: 'Manrope', sans-serif;
+}

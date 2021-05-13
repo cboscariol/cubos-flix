@@ -1,0 +1,43 @@
+.container-bag-iten{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+
+.joker-pic{
+    width: 43px;
+    height: 67px;
+}
+
+.amount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.amount button{
+    background-color: black;
+    cursor: pointer;
+}
+
+.amount button:hover,
+.amount button:active{
+    background-color: #BFBFBF;
+}
+
+.amount p{
+    margin: 0 7px;
+}
+
+.bag-iten-movie p:first-child{
+    margin-bottom: 11px;
+}
+
+.bag-iten-movie {
+    flex: 100%;
+    padding: 0 10px;
+}
+

@@ -1,0 +1,22 @@
+* {
+  font-family: 'Manrope', sans-serif;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-color: #1D2226;
+}
+
+input {
+  background-color: #171B1E;
+}
+
+
+.content {
+  width: calc(100% - 312px - 24px);
+}

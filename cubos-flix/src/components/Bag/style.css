@@ -1,0 +1,83 @@
+.bag-principal{
+    background-color:rgba(0, 0, 0, 0.37);
+    width: 312px;
+    min-height: 460px;
+    position: fixed;
+    right: 24px;
+    margin-top: 20px;
+    
+}
+
+.purple-bag{
+    background-color: #A785ED;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container-bag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+
+.coupon-bag-input-style {
+    background-color: #171B1E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+    width: 280px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.coupon-bag-input-style img{
+    width: 20px;
+    height: 20px;
+}
+
+.coupon-bag p{
+    font-size: 12px;
+    margin-top: 24px;
+
+}
+
+
+.pink-bag{
+    background-color: #E25EBF;
+    width: 280px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.pink-bag:hover{
+    background-color:#FFB6EB;
+    
+}
+
+.pink-bag:active{
+    background-color: #FFB6EB;
+    box-shadow: 0px 16px 24px -12px rgba(226, 94, 191, 0.5);
+}
+
+
+.empty-bag h1{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    margin: 15px 0;
+} 
+
+.empty-bag h2{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
